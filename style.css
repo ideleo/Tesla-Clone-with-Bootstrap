@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.bg-light {
+  --bs-bg-opacity: 0 !important;
+}
+
+.navbar-brand {
+  background-repeat: no-repeat;
+  width: 6.25rem;
+  height: 1.5rem;
+  margin-top: 0.44rem !important;
+  margin-left: 3rem !important;
+  padding-bottom: .3125rem;
+  /* margin-right: -50rem; */
+}
+
+.tds-icon {
+ width: 7.5rem;
+ margin-bottom: 2rem;   
+}
+
+.nav-right {
+  margin-right: 1rem !important;
+}
+
+.nav-link {
+  transition: none !important;
+}
+
+.navbar ul li a {
+  color: #fff;
+}
+.navbar ul li :hover {
+  background-color: rgba(0, 0, 0, 0.1);  !important ;
+  border-radius: 15px !important;
+  transition: 0.5s;
+}
+
+.offcanvas.show {
+  transform: none;
+  width: 18.5%;
+}
+
+.offcanvas-body {
+  padding: 2rem 2.8rem !important;
+}
+
+.offcanvas-body .nav-link {
+  color: #393c41 !important;
+  margin-bottom: 4px !important;
+}
+
+.btns {
+    margin-top: 33rem !important;
+    padding-top: 2rem !important;
+}
+
+.text-muted {
+  margin-left: 1.5rem !important;
+  font-size: 0.8rem;
+}
+
+#btn-hero .btn-lg {
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  margin-bottom: 3.5rem !important;
+  width: 15.5rem !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #171A20CC !important;
+  color: #fff !important;
+  border-color: #171A20CC !important;
+}
+
+.btn-secondary {
+  background-color: #ffffffA6 !important;
+  color: #393c41 !important;
+  border-color: #ffffffA6 !important;
+}
+
+a, .navbar-light .navbar-toggler {
+  color: #181b21 !important;
+}
+
+.offcanvas-body .nav-link {
+  color: #393c41;
+}
+
+.hero-text {
+  margin-top: 6rem !important;
+}
+
+.heading {
+  font-size: 40px;
+  color: #393c41;
+  font-weight: 600 !important;
+  margin-bottom: 0rem !important;
+}
+
+#solarPanel .heading {
+  font-size: 34px !important; 
+}
+
+.sub-heading {
+  font-size: 14px;
+  color: #5c5d61;
+  padding: 0 0 8px;
+}
+.parent {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+  overflow-x: hidden !important;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+#model3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/teslaClone_project/img/Desktop-Model3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#modelY {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/teslaClone_project/img/Desktop-ModelY.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#modelS {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/teslaClone_project/img/Desktop-ModelS.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#solarPanels {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/teslaClone_project/img/Desktop-SolarPanels.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#modelX {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/teslaClone_project/img/Desktop-ModelX.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#accessories {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/teslaClone_project/img/Desktop-Accessories.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.bottom-text {
+  position: relative;
+  bottom: 2rem;
+  font-weight: 500 ;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 1.5rem;
+  color: #5c5d61;
+  font-size: 0.8rem;
+  font-weight: 500 !important;
+}
+
+
+.chevron-down {
+  fill: #000;
+  margin-bottom: 0.5rem;
+  width: 1.5rem;
+  height: 1rem;
+  animation: hover-me .5s infinite ease-in-out alternate; 
+}
+
+@keyframes hover-me {
+  100% { transform: translate3d(0, 5px, 0); }
+}
+
+@media only screen and (max-width: 1200px) {
+  .offcanvas.show {
+    width: 40% ;
+  }
+  .menu .nav-link {
+    background-color: rgba(0, 0, 0, 0.1);  !important ;
+    border-radius: 15px !important;
+  }
+  .navbar-brand {
+    margin-left: 0rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .offcanvas.show {
+    width: 80% ;
+  }
+
+  .menu .nav-link {
+    background-color: rgba(0, 0, 0, 0.1);  !important ;
+    border-radius: 15px !important;
+  }
+
+  .navbar-brand {
+    margin-left: 0rem !important;
+}
+
+  .btns {
+    margin-top: 10rem !important;
+    padding-top: 2rem !important;
+    flex-direction: column;
+  }
+
+
+  #btn-hero .btn-lg {
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    margin-bottom: 1rem !important;
+    width: 20rem !important;
+    font-size: 13px !important;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  #model3 {
+    background-image: url(/teslaClone_project/img/M3-Homepage-RHD-M.jpg);
+  }
+
+  #modelY {
+    background-image: url(/teslaClone_project/img/Mobile-ModelY.jpg);
+  }
+
+  #modelS {
+    background-image: url(/teslaClone_project/img/ms-homepage-mobile.jpg);
+  }
+
+  #solarPanels {
+    background-image: url(/teslaClone_project/img/Mobile-SolarPanels.jpg);
+  }
+
+  #modelX {
+    background-image: url(/teslaClone_project/img/MX-Homepage-RHD-M.jpg);
+  }
+
+  #accessories {
+    background-image: url(/teslaClone_project/img/Mobile-Accessories.jpg);
+  }
+  
+
+}
