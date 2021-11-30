@@ -13,6 +13,8 @@ body {
   --bs-bg-opacity: 0 !important;
 }
 
+/* NavBar*/
+
 .navbar-brand {
   background-repeat: no-repeat;
   width: 6.25rem;
@@ -20,7 +22,6 @@ body {
   margin-top: 0.44rem !important;
   margin-left: 3rem !important;
   padding-bottom: .3125rem;
-  /* margin-right: -50rem; */
 }
 
 .tds-icon {
@@ -126,10 +127,26 @@ a, .navbar-light .navbar-toggler {
   scroll-snap-type: y mandatory;
 }
 
+.bottom-text {
+  position: relative;
+  bottom: 2rem;
+  font-weight: 500 ;
+}
+
+.chevron-down {
+  fill: #000;
+  margin-bottom: 0.5rem;
+  width: 1.5rem;
+  height: 1rem;
+  animation: hover-me .5s infinite ease-in-out alternate; 
+}
+
 .row {
   --bs-gutter-x: 0 !important;
   overflow-x: hidden !important;
 }
+
+/* Hero section */
 
 section {
   height: 100vh;
@@ -197,12 +214,7 @@ section {
   background-repeat: no-repeat;
 }
 
-
-.bottom-text {
-  position: relative;
-  bottom: 2rem;
-  font-weight: 500 ;
-}
+/* Footer */
 
 .footer-copyright {
   position: absolute;
@@ -213,19 +225,15 @@ section {
 }
 
 
-.chevron-down {
-  fill: #000;
-  margin-bottom: 0.5rem;
-  width: 1.5rem;
-  height: 1rem;
-  animation: hover-me .5s infinite ease-in-out alternate; 
-}
-
 @keyframes hover-me {
   100% { transform: translate3d(0, 5px, 0); }
 }
+/* Tablet section */
 
 @media only screen and (max-width: 1200px) {
+
+  /* Navbar */
+
   .offcanvas.show {
     width: 40% ;
   }
@@ -237,7 +245,11 @@ section {
     margin-left: 0rem !important;
 }
 
+/* Mobile Section */ 
+
 @media only screen and (max-width: 600px) {
+  /* Navbar */
+
   .offcanvas.show {
     width: 80% ;
   }
@@ -269,6 +281,8 @@ section {
     text-transform: uppercase;
   }
 
+  /* Hero Section */
+
   #model3 {
     background-image: url(/teslaClone_project/img/M3-Homepage-RHD-M.jpg);
   }
@@ -293,5 +307,4 @@ section {
     background-image: url(/teslaClone_project/img/Mobile-Accessories.jpg);
   }
   
-
 }
